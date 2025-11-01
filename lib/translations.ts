@@ -1,0 +1,255 @@
+export const translations = {
+  en: {
+    // Navigation
+    home: "Home",
+    courses: "Courses",
+    myLearning: "My Learning",
+    about: "About",
+    help: "Help",
+    login: "Login",
+    signup: "Sign Up",
+    logout: "Logout",
+    profile: "Profile",
+    certificates: "Certificates",
+
+    // Homepage
+    heroTitle: "Learn Without Limits",
+    heroSubtitle: "Master new skills with our innovative learning platform",
+    exploreCourses: "Explore Courses",
+    getStarted: "Get Started",
+    featuredCourses: "Featured Courses",
+    popularCourses: "Popular Courses",
+
+    // Course Details
+    enroll: "Enroll Now",
+    enrolled: "Enrolled",
+    continue: "Continue Learning",
+    lessons: "Lessons",
+    students: "Students",
+    level: "Level",
+    duration: "Duration",
+    instructor: "Instructor",
+
+    // Levels
+    beginner: "Beginner",
+    intermediate: "Intermediate",
+    advanced: "Advanced",
+
+    // Auth
+    email: "Email",
+    password: "Password",
+    fullName: "Full Name",
+    confirmPassword: "Confirm Password",
+    forgotPassword: "Forgot Password?",
+    noAccount: "Don't have an account?",
+    haveAccount: "Already have an account?",
+    signInTitle: "Welcome Back",
+    signInSubtitle: "Sign in to continue your learning journey",
+    signUpTitle: "Join Us Today",
+    signUpSubtitle: "Start your learning journey with us",
+
+    // Dashboard
+    dashboard: {
+      title: "Dashboard",
+      subtitle: "Continue your learning journey",
+      totalXP: "Total XP",
+      streak: "Day Streak",
+      coursesEnrolled: "Courses Enrolled",
+      achievements: "Achievements",
+      myCourses: "My Courses",
+      browseCourses: "Browse Courses",
+      noCoursesYet: "No courses yet",
+      startLearning: "Start your learning journey by enrolling in a course",
+      exploreCourses: "Explore Courses",
+      progress: "Progress",
+      lessons: "lessons",
+      lastAccessed: "Last accessed",
+      continue: "Continue Learning",
+    },
+
+    // Profile
+    profile: {
+      title: "Profile Settings",
+      personalInfo: "Personal Information",
+      personalInfoDesc: "Update your personal details",
+      name: "Name",
+      email: "Email",
+      saveChanges: "Save Changes",
+      language: "Language Preferences",
+      languageDesc: "Choose your preferred language",
+      accountActions: "Account Actions",
+      logout: "Logout",
+    },
+
+    // Certificates
+    certificates: {
+      title: "My Certificates",
+      subtitle: "View and download your completed course certificates",
+      noCertificates: "No Certificates Yet",
+      noCertificatesDesc: "Complete a course to earn your first certificate",
+      browseCourses: "Browse Courses",
+      completed: "Completed",
+      completedOn: "Completed on",
+      download: "Download Certificate",
+      downloadingSoon: "Certificate download coming soon",
+    },
+
+    // Settings
+    settings: {
+      title: "Settings",
+      subtitle: "Manage your account preferences",
+      account: "Account Settings",
+      accountDescription: "Update your personal information",
+      name: "Name",
+      email: "Email",
+      saveChanges: "Save Changes",
+      language: "Language",
+      languageDescription: "Choose your preferred language",
+      notifications: "Notifications",
+      notificationsDescription: "Manage your notification preferences",
+      pushNotifications: "Push Notifications",
+      pushNotificationsDescription: "Receive notifications about your courses",
+      emailNotifications: "Email Updates",
+      emailNotificationsDescription: "Receive email updates about new courses",
+      learningPreferences: "Learning Preferences",
+      learningPreferencesDescription: "Customize your learning experience",
+      autoplayVideos: "Autoplay Videos",
+      autoplayVideosDescription: "Automatically play next video in sequence",
+    },
+
+    // Common
+    search: "Search courses...",
+    filter: "Filter",
+    all: "All",
+    loading: "Loading...",
+    error: "Error",
+    continueWhere: "Continue where you left off",
+    continueLearning: "Continue Learning",
+    complete: "complete",
+  },
+  ar: {
+    // Navigation
+    home: "الرئيسية",
+    courses: "الدورات",
+    myLearning: "تعلمي",
+    about: "عن المنصة",
+    help: "المساعدة",
+    login: "تسجيل الدخول",
+    signup: "إنشاء حساب",
+    logout: "تسجيل الخروج",
+    profile: "الملف الشخصي",
+    certificates: "الشهادات",
+
+    // Homepage
+    heroTitle: "تعلم بلا حدود",
+    heroSubtitle: "أتقن مهارات جديدة مع منصتنا التعليمية المبتكرة",
+    exploreCourses: "استكشف الدورات",
+
+    // Course Details
+    enroll: "سجل الآن",
+    enrolled: "مسجل",
+    continue: "مواصلة التعلم",
+    lessons: "المحاضرات",
+    students: "الطلاب",
+    level: "المستوى",
+    duration: "المدة",
+    instructor: "المدرب",
+
+    // Levels
+    beginner: "مبتدئ",
+    intermediate: "متوسط",
+    advanced: "متقدم",
+
+    // Auth
+    email: "البريد الإلكتروني",
+    password: "كلمة المرور",
+    fullName: "الاسم الكامل",
+    confirmPassword: "تأكيد كلمة المرور",
+    forgotPassword: "هل نسيت كلمة المرور؟",
+    noAccount: "ليس لديك حساب؟",
+    haveAccount: "هل لديك حساب بالفعل؟",
+    signInTitle: "مرحباً مرة أخرى",
+    signInSubtitle: "تسجيل الدخول لمواصلة رحلتك التعليمية",
+    signUpTitle: "انضم إلينا اليوم",
+    signUpSubtitle: "ابدأ رحلتك التعليمية معنا",
+
+    // Dashboard
+    dashboard: {
+      title: "لوحة التحكم",
+      subtitle: "مواصلة رحلتك التعليمية",
+      totalXP: "النقاط الكلية",
+      streak: "سلسلة الأيام",
+      coursesEnrolled: "الدورات المسجلة",
+      achievements: "الإنجازات",
+      myCourses: "دوراتي",
+      browseCourses: "تصفح الدورات",
+      noCoursesYet: "لا توجد دورات بعد",
+      startLearning: "ابدأ رحلتك التعليمية بالتسجيل في دورة",
+      exploreCourses: "استكشف الدورات",
+      progress: "التقدم",
+      lessons: "محاضرات",
+      lastAccessed: "آخر دخول",
+      continue: "مواصلة التعلم",
+    },
+
+    // Profile
+    profile: {
+      title: "إعدادات الملف الشخصي",
+      personalInfo: "المعلومات الشخصية",
+      personalInfoDesc: "تحديث تفاصيلك الشخصية",
+      name: "الاسم",
+      email: "البريد الإلكتروني",
+      saveChanges: "حفظ التغييرات",
+      language: "تفضيلات اللغة",
+      languageDesc: "اختر لغتك المفضلة",
+      accountActions: "إجراءات الحساب",
+      logout: "تسجيل الخروج",
+    },
+
+    // Certificates
+    certificates: {
+      title: "شهاداتي",
+      subtitle: "عرض وتنزيل شهادات دوراتك المكتملة",
+      noCertificates: "لا توجد شهادات بعد",
+      noCertificatesDesc: "اكتمل دورة لاحظ شهادتك الأولى",
+      browseCourses: "تصفح الدورات",
+      completed: "مكتمل",
+      completedOn: "مكتمل في",
+      download: "تنزيل الشهادة",
+      downloadingSoon: "تحميل الشهادة قريباً",
+    },
+
+    // Settings
+    settings: {
+      title: "الإعدادات",
+      subtitle: "إدارة تفضيلات حسابك",
+      account: "إعدادات الحساب",
+      accountDescription: "تحديث معلوماتك الشخصية",
+      name: "الاسم",
+      email: "البريد الإلكتروني",
+      saveChanges: "حفظ التغييرات",
+      language: "اللغة",
+      languageDescription: "اختر لغتك المفضلة",
+      notifications: "الإشعارات",
+      notificationsDescription: "إدارة تفضيلات الإشعارات",
+      pushNotifications: "الإشعارات التلقائية",
+      pushNotificationsDescription: "تلقى إشعارات حول دوراتك",
+      emailNotifications: "تحديثات البريد الإلكتروني",
+      emailNotificationsDescription: "تلقى تحديثات البريد الإلكتروني حول دورات جديدة",
+      learningPreferences: "تفضيلات التعلم",
+      learningPreferencesDescription: "خصص تجربتك التعليمية",
+      autoplayVideos: "تشغيل الفيديوهات تلقائياً",
+      autoplayVideosDescription: "تشغيل الفيديو التالي تلقائياً في التسلسل",
+    },
+
+    // Common
+    search: "ابحث عن الدورات...",
+    filter: "التصنيف",
+    all: "جميع",
+    loading: "تحميل...",
+    error: "خطأ",
+    continueWhere: "مواصلة من حيث توقفت",
+    continueLearning: "مواصلة التعلم",
+    complete: "مكتمل",
+  },
+}
